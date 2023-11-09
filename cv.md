@@ -46,7 +46,7 @@ acordions.forEach((acor) => {
 ## Courses:
 * Code Basics **(completed)**
 * Yandex Practicum **(completed)**
-* RS Schools Course «JavaScript/Front-end. Stage 0» *(in progress)*
+* RS Schools Course «JavaScript/Front-end. Stage 0» 
 
 ---
 
