@@ -23,6 +23,8 @@ Now I realize that it fits into the *Full-stack* developer puzzle and I'm planni
 ## Skills:
 * HTML
 * CSS
+* JavaScript
+* PostgreeSQL
 * Photoshop
 
 ---
