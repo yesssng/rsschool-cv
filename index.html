@@ -78,9 +78,9 @@
                     <span class="experience_text">This is my first experience writing an accordion using JavaScript for a team project at a university</span>
                     <code>
                         let acordions = document.querySelectorAll(".acordionwrapper .acordion");<br>
-acordions.forEach((acor) => {<br>
-    acor.onclick =() => {<br>
-        acordions.forEach((subcontents) => {<br>
+acordions.forEach((acor) =&gt {<br>
+    acor.onclick =() =&gt {<br>
+        acordions.forEach((subcontents) =&gt {<br>
             subcontents.classList.remove("active");<br>
         })<br>
         acor.classList.add("active");<br>
