@@ -13,5 +13,98 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="info">
+            <div class="name">
+                <h1 class="firstname">Adil Yessengarinn</h1>
+                <h2 class="job">Frontend Developer</h2>
+                <h2 class="intro">I studied <em>Photoshop</em> and went to <em>IT university</em> at the same time
+                    Thinking how I could combine programming and design I chose the path of <em>Frontend developer</em>.
+                    Now I realize that it fits into the <em>Full-stack</em> developer puzzle and I'm planning to study <em>backend</em> and <em>Cybersecurity</em>.</h2>
+            </div>
+            <img src="IMAGES/ava.jpg" alt="avatar" class="avatar">
+        </div>
+    </header>
+    <main>
+        <div class="aboutme">
+            <div class="left">
+                <div class="contacts">
+                    <div class="contact_item">
+                        <img class="contact_icon" src="IMAGES/phone.png" width="13" height="13" alt="">
+                        <div class="contact_title">+7 778 123 82 83</div>
+                    </div>
+                    <div class="contact_item">
+                        <img class="contact_icon" src="IMAGES/mail.png" width="13" height="13" alt="">
+                        <span class="contact_title">yesssng@gmail.com</span>
+                    </div>
+                    <div class="contact_item">
+                        <img class="contact_icon" src="IMAGES/marker.png" width="13" height="13" alt="">
+                        <span class="contact_title">Astana, Kazakhstan</span>
+                    </div>
+                    <div class="contact_item">
+                        <img class="contact_icon" src="IMAGES/telegram.png" width="13" height="13" alt="">
+                        <span class="contact_title">@yessng</span>
+                    </div>
+                </div>
+                <div class="skills">
+                    <span class="skill_p">Skills</span>
+                    <ul class="skill_h">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PostgreeSQL</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+                <div class="education">
+                    <span class="education_p">Education</span>
+                    <span class="study">Secondary school</span>
+                    <span class="place">School</span>
+                    <span class="place">2011-1022</span>
+                    <span class="study">Bachelor of Technology</span>
+                    <span class="place">Astana IT University</span>
+                    <span class="place">2022 - 2025</span>
+                </div>
+                <div class="language">
+                    <span class="language_title">Language</span>
+                    <span class="language_name">English - B2</span>
+                    <span class="language_name">Kazakh - Native</span>
+                    <span class="language_name">Russian - Native</span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="experience">
+                    <span class="experience_p">Experience</span>
+                    <span class="experience_text">This is my first experience writing an accordion using JavaScript for a team project at a university</span>
+                    <code>
+                        let acordions = document.querySelectorAll(".acordionwrapper .acordion");<Br>
+acordions.forEach((acor) => {<Br>
+    acor.onclick =() => {<Br>
+        acordions.forEach((subcontents) => {<Br>
+            subcontents.classList.remove("active");<Br>
+        })<Br>
+        acor.classList.add("active");<Br>
+    };<Br>
+});<Br>
+                    </code>
+                </div>
+                <div class="courses">
+                    <span class="courses_p">courses</span>
+                    <ul class="courses_h">
+                        <li>Code Basics (<b>Completed</b>)</li>
+                        <li>Yandex Practicum (<b>Completed</b>)</li>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 0» </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <span class="year">2023</span>
+            <a href="https://rs.school/js-stage0/" class="icons"><img src="https://rs.school/images/rs_school_js.svg" alt="rs" height="50"></a>
+            <a href="https://github.com/yesssng" class="icons"><img src="IMAGES/github.png" alt="git" height="50"></a>
+        </div>
+    </footer>
 </body>
 </html>
